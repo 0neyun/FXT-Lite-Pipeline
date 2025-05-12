@@ -2,7 +2,7 @@
 FXT Lite-Pipeline is a lightweight command-line tool tailored for SVOM Burst Advocates (BAs) to analyze EP-FXT follow-up observations of SVOM-triggered events.
 
 HEASoft: https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/ \
-FXT docker: http://epfxt.ihep.ac.cn/analysis \
+FXT docker: http://epfxt.ihep.ac.cn/analysis 
 
 Step 1: Generate Region Files
 -----------------------------
