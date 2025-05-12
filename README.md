@@ -10,12 +10,12 @@ Download the source detection CSV files from the web interface and save them as:
 - src_a.csv
 - src_b.csv
 
-Then run the script to generate region files for FXT-A and FXT-B:
+Then run the script to generate region files for FXT-A and FXT-B: \
     python get_src_reg.py
 
 Step 2: Extract Source and Background Spectra
 ---------------------------------------------
-Use xselect to extract source and background spectra:\
+Use xselect to extract source and background spectra: \
     xselect @extract_spec.xco
 
 Step 3: Generate ARF and RMF Using Docker
@@ -26,16 +26,16 @@ Run the following command to start the container:
         -v /Users/wangyun/fxtcaldb/:/caldb \
         9c037045129c bash
 
-Inside the container:
+Inside the container: \
     chmod +x group_spectra.sh \
     ./gen_arf_rmf.sh
 
 Step 4: Group the Spectra
 --------------------------
-Run the grouping script:
+Run the grouping script: \
     ./grppha_spec.sh
 
 Step 5: Load and Fit Spectra in XSPEC
 -------------------------------------
-Load the spectra and perform fitting:
+Load the spectra and perform fitting: \
     xspec - fit_a_b.xcm
