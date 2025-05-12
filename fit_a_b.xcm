@@ -1,0 +1,9 @@
+#Author: Yun Wang <wangyun@pmo.ac.cn>
+data 1:1 s1_a.pi
+data 2:2 s1_b.pi
+ign 1:**-0.5 10.0-**
+ign 2:**-0.5 10.0-**
+ign bad
+abun wilm
+statistic cstat 1
+statistic cstat 2

@@ -1,0 +1,45 @@
+！ Author: Yun Wang <wangyun@pmo.ac.cn>
+xsel
+
+! ===== for fxt_a_* event =====
+read event
+.
+fxt_a_XXXXXXXXXXXXXXXXXXXXXXXXXXX.fits
+yes
+filter region
+s1_a.reg
+extract spectrum
+save spectrum
+s1_a.pha
+clear region
+
+filter region
+bak_a.reg
+extract spectrum
+save spectrum
+s1_a_bk.pha
+clear region
+
+clear all
+
+! ===== for fxt_b_* event =====
+read event
+.
+fxt_b_XXXXXXXXXXXXXXXXXXXXXXXXXXX.fits
+
+filter region
+s1_b.reg
+extract spectrum
+save spectrum
+s1_b.pha
+clear region
+
+filter region
+bak_b.reg
+extract spectrum
+save spectrum
+s1_b_bk.pha
+clear region
+
+exit
+no
