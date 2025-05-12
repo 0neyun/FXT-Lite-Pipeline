@@ -15,7 +15,7 @@ Then run the script to generate region files for FXT-A and FXT-B:
 
 Step 2: Extract Source and Background Spectra
 ---------------------------------------------
-Use xselect to extract source and background spectra:
+Use xselect to extract source and background spectra:\
     xselect @extract_spec.xco
 
 Step 3: Generate ARF and RMF Using Docker
@@ -27,7 +27,7 @@ Run the following command to start the container:
         9c037045129c bash
 
 Inside the container:
-    chmod +x group_spectra.sh
+    chmod +x group_spectra.sh \
     ./gen_arf_rmf.sh
 
 Step 4: Group the Spectra
