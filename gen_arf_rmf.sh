@@ -1,4 +1,3 @@
-#！ Author: Yun Wang <wangyun@pmo.ac.cn>
 #!/bin/bash
 
 # === path for mkf ===
