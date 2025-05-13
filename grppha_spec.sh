@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # set min photon number for per bin 
