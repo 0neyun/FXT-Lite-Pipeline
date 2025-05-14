@@ -4,6 +4,10 @@ FXT Lite-Pipeline is a lightweight command-line tool tailored for SVOM Burst Adv
 HEASoft: https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/ \
 FXT docker: http://epfxt.ihep.ac.cn/analysis 
 
+There are some aspects of the path that are difficult to describe—please refer to the figure below.
+![截屏2025-05-14 11 52 11](https://github.com/user-attachments/assets/b67f25fb-4374-4302-adef-ec3ecd40f63a)
+
+
 Step 1: Generate Region Files
 -----------------------------
 Download the source detection CSV files from the web interface and save them as:
@@ -11,6 +15,8 @@ Download the source detection CSV files from the web interface and save them as:
 - src_a.csv
 - src_b.csv
 
+
+Modify the corresponding FXT data folder in get_src_reg.py .
 Then run the script to generate region files for FXT-A and FXT-B: \
     python get_src_reg.py
 
